@@ -10,8 +10,9 @@
                        @opentable="table = true;tools = false"
                        @opentheme="theme = true;tools = false"
             ></n-sidebar>
-        </section >
+        </section > 
         <transition name="dialog">
+            <!-- asf -->
             <!-- <n-dialog :is-show="dialog" :msg="tips" @cancel="dialog = false" @sure="sureDialog"></n-dialog> -->
             <n-dialog v-show="dialog" :msg="tips" @cancel="dialog = false" @sure="sureDialog"></n-dialog>
         </transition>
